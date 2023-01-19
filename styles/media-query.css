@@ -1,0 +1,52 @@
+@media (max-width: 860px) {
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin-bottom: 70px;
+        margin-top: 70px;
+    }
+
+    .card-content {
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+
+    .card-one {
+        border-radius: 0;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+
+    .card-three {
+        border-radius: 0;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    button {
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 310px) {
+    .card-content {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+    p {
+        width: 100%;
+        font-size: 0.675rem;
+    }
+
+    .card-one,
+    .card-two,
+    .card-three {
+        width: 90%;
+    }
+}
